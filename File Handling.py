@@ -1,0 +1,6 @@
+file = open('Test.txt', 'r')
+print(file.read())
+file.close()
+file1 = open('Test.txt', 'w')
+file1.write("This is for practice")
+file1.close()

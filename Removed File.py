@@ -1,9 +1,9 @@
-file1 = open('Codingal Updated.txt', 'r')
+file1 = open('Codingal.txt', 'r')
 file2 = open('Codingal Updated.txt', 'w')
 
 for line in file1.readlines():
 
-    if not (line.startswitch('Coding')):
+    if not (line.startswith('Coding')):
 
         print(line)
 
